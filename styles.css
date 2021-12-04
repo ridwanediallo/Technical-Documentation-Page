@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   /* font-size: 16px; */
+   /* font-family: sans-serif; */
+   font-family: 'Source Code Pro', monospace;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
+}
+
+header{
+  background-color: #ddd;
+  padding: 2px 0;
+  text-align: center;
+    /* position: sticky;
+   top: 0;
+   z-index: 100; */
+}
+
+/* THE NAVIGATION */
+.navigation {
+  width: 250px;
+  height: 100vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  border-right: 5px solid #000;
+}
+
+nav ul li {
+  list-style: none;
+  border-bottom: 2px solid #000;
+  padding: 10px 0;
+  font-size: 18px;
+}
+nav ul li:first-child{
+  border-top: 2px solid #000;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-link{
+  
+}
+
+
+.sections {
+  width: 900px;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+.code{
+  background-color: #ddd;
+  padding: 10px 0 10px 5px;
+  border-radius: 5px;
+}
